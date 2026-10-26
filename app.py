@@ -84,7 +84,6 @@ print("CineMatch AI: ML model trained successfully!")
 print(f"Dataset contains {len(movies)} titles.")
 print(f"TF-IDF matrix shape: {tfidf_matrix.shape}")
 print("Algorithm: TF-IDF + Cosine Similarity")
-display(movies[["title", "type", "genre", "year"]].head(10))
 
 
 
