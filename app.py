@@ -230,4 +230,4 @@ with gr.Blocks(css=custom_css, title="CineMatch AI") as demo:
         "Built as an AI/ML mini project using Python, Pandas, Scikit-learn and Gradio."
     )
 
-demo.launch(server_name="0.0.0.0", server_port=7860)
+demo.launch(server_name="0.0.0.0", server_port=10000)
